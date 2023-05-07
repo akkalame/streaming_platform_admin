@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include streaming_platform_admin *.css
+recursive-include streaming_platform_admin *.csv
+recursive-include streaming_platform_admin *.html
+recursive-include streaming_platform_admin *.ico
+recursive-include streaming_platform_admin *.js
+recursive-include streaming_platform_admin *.json
+recursive-include streaming_platform_admin *.md
+recursive-include streaming_platform_admin *.png
+recursive-include streaming_platform_admin *.py
+recursive-include streaming_platform_admin *.svg
+recursive-include streaming_platform_admin *.txt
+recursive-exclude streaming_platform_admin *.pyc
