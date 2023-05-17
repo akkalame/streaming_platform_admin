@@ -1,0 +1,7 @@
+13-05-23
+	- verificacion al insertar un perfil en platform_profile.py
+	- verificacion para evitar registros duplicados en platform_account.py
+
+16-05-23
+	- Nuevos reportes "Next Due Platform Profile" y "Next Due Platform Account"
+	- bumped a la version 0.1.0 beta

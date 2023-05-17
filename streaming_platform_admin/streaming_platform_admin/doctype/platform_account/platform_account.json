@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "creation": "2023-05-09 22:59:48.650982",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "platform",
+  "platform_name",
+  "username",
+  "password",
+  "column_break_thxf",
+  "supplier",
+  "due_date",
+  "price",
+  "available_profiles"
+ ],
+ "fields": [
+  {
+   "fieldname": "platform",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Platform",
+   "options": "Platform",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Username",
+   "reqd": 1
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Data",
+   "label": "Password",
+   "print_hide": 1,
+   "report_hide": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_thxf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "Supplier",
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "label": "Due Date"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "label": "Price"
+  },
+  {
+   "fieldname": "available_profiles",
+   "fieldtype": "Int",
+   "label": "Available Profiles",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "platform.platform_name",
+   "fieldname": "platform_name",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Platform Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Platform Profile",
+   "link_fieldname": "platform_account"
+  }
+ ],
+ "modified": "2023-05-13 13:53:01.039341",
+ "modified_by": "Administrator",
+ "module": "Streaming Platform Admin",
+ "name": "Platform Account",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "if_owner": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Streaming Platform Admin User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "platform_name",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "username"
+}

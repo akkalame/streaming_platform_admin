@@ -1,0 +1,111 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-11 22:50:40.791985",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "platform",
+  "customer",
+  "pin",
+  "column_break_jxic",
+  "platform_account",
+  "profile",
+  "due_date",
+  "platform_username"
+ ],
+ "fields": [
+  {
+   "fieldname": "platform",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Platform",
+   "options": "Platform",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "platform_account",
+   "fieldtype": "Link",
+   "label": "Platform Account",
+   "options": "Platform Account",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer",
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "profile",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Profile"
+  },
+  {
+   "fieldname": "pin",
+   "fieldtype": "Data",
+   "label": "PIN",
+   "length": 4
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "label": "Due Date"
+  },
+  {
+   "fieldname": "column_break_jxic",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "platform_account.username",
+   "fieldname": "platform_username",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Username"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-05-16 22:47:07.829300",
+ "modified_by": "Administrator",
+ "module": "Streaming Platform Admin",
+ "name": "Platform Profile",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "if_owner": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Streaming Platform Admin User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "platform_username"
+}

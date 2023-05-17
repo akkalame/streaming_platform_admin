@@ -1,0 +1,34 @@
+Doctypes
+	Platform
+		[campos]
+		Name
+		//Item Code:Item
+		Profiles Qty
+		Tables
+			Price Platform Profile
+				[campos]
+				Qty
+				Price
+	Platform Account
+		[campos]
+		Platform:Platform
+		Username
+		Password
+		Supplier:Supplier
+		Due Date
+		Price
+		Available Profiles
+	Platform Profile
+		[campos]
+		Platform:Platform
+		Platform Account: Platform Account
+		Customer:Customer
+		Profile
+		Pin
+		Due Date
+
+Reports
+	Next Due Profile
+		Customer / Customer Phone / Platform / Username / Profile / Due Date / Due Days / Amount
+	Next Due Platform Account
+		Platform / Username / Supplier / Supplier Phone / Due Date / Due Days / Amount

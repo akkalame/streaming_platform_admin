@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "creation": "2023-05-09 22:45:52.310461",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "platform_name",
+  "profile_qty",
+  "price_profile"
+ ],
+ "fields": [
+  {
+   "fieldname": "platform_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Platform Name",
+   "reqd": 1
+  },
+  {
+   "default": "-1",
+   "fieldname": "profile_qty",
+   "fieldtype": "Int",
+   "label": "Max Profiles Qty"
+  },
+  {
+   "fieldname": "price_profile",
+   "fieldtype": "Table",
+   "label": "Price Profiles Rules",
+   "options": "Price Platform Profile"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Platform Account",
+   "link_fieldname": "platform"
+  }
+ ],
+ "modified": "2023-05-13 14:02:16.367334",
+ "modified_by": "Administrator",
+ "module": "Streaming Platform Admin",
+ "name": "Platform",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "if_owner": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Streaming Platform Admin User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "platform_name"
+}

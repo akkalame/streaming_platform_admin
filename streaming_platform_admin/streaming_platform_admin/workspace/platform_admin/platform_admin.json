@@ -1,0 +1,121 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"FU0fbCkDGM\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Platform Admin</span>\",\"col\":12}},{\"id\":\"kREF9ZCFRi\",\"type\":\"card\",\"data\":{\"card_name\":\"Maestros\",\"col\":4}},{\"id\":\"hI5u3TdrBL\",\"type\":\"card\",\"data\":{\"card_name\":\"Reportes\",\"col\":4}}]",
+ "creation": "2023-05-09 22:22:56.158064",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "projects",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Platform Admin",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Maestros",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Plataforma",
+   "link_count": 0,
+   "link_to": "Platform",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cuenta de Plataforma",
+   "link_count": 0,
+   "link_to": "Platform Account",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Perfil",
+   "link_count": 0,
+   "link_to": "Platform Profile",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Supplier",
+   "link_count": 0,
+   "link_to": "Supplier",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Client",
+   "link_count": 0,
+   "link_to": "Customer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reportes",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Next Due Profile",
+   "link_count": 0,
+   "link_to": "Next Due Profile",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Next Due Platform Account",
+   "link_count": 0,
+   "link_to": "Next Due Platform Account",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-05-16 23:07:38.584145",
+ "modified_by": "Administrator",
+ "module": "Streaming Platform Admin",
+ "name": "Platform Admin",
+ "number_cards": [],
+ "owner": "akkalameo.o@gmail.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Streaming Platform Admin User"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 2.0,
+ "shortcuts": [],
+ "title": "Platform Admin"
+}

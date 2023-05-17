@@ -7,6 +7,13 @@ app_description = "App para administrar perfiles y cuentas de plataformas stream
 app_email = "akkalameo.o@gmail.com"
 app_license = "MIT"
 
+
+fixtures = [
+	{"dt": "Role", "filters": {"name": "Streaming Platform Admin User"}},
+	{"dt": "Custom DocPerm", "filters": {"role": "Streaming Platform Admin User"}}
+]
+
+
 # Includes in <head>
 # ------------------
 

@@ -1,0 +1,4 @@
+- colocar filtros de agrupacion al reporte next due profile y next due platform account
+- funcionalidad para permitir agregar perfiles individuales que no pertenezcan a una cuenta completa
+- boton para copiar los datos de los perfiles
+- programador para los proximos vencimientos de perfiles y cuentas
